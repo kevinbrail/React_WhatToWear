@@ -1,0 +1,37 @@
+//This is for the main big button
+.big-button {
+    background: $button-color;
+    border: none;
+    border-bottom: .6rem solid darken($button-color, 10%);
+    color: white;
+    font-weight: bold;
+    font-size: $large-size;
+    width: 100%;
+   // margin-top: $sm-space;
+    padding: 2.4rem;
+};
+
+.big-button:disabled {
+    opacity: .5;
+}
+
+.button {
+    background: $button-color;
+    border: none;
+    border-bottom: .3rem solid darken($button-color, 10%);
+    color: white;
+    font-weight: 500;
+    padding: $sm-space;
+}
+
+.button--link {
+    background: none;
+    border: none;
+    color: $off-white;
+    padding: 0;
+}
+@media (min-width: $desktop-breakpoint) {
+    .big-button{
+       // margin-top: $med-space;
+    }
+}
