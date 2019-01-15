@@ -24,5 +24,7 @@ React-DOM
 REact-Modal
 sass-loader
 
+Possible Enhancements
+- Deploy live to Heroku
 
 
